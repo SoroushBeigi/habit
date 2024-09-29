@@ -38,10 +38,8 @@ flutter:
 
 
   assets:
-    - assets/onboarding/
-  #   - images/a_dot_ham.jpeg
-  assets:
     - assets/svg/
+    - assets/onboarding/
 
   fonts:
     - family:  MyFlutterApp
