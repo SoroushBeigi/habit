@@ -16,4 +16,5 @@ class IconManager {
 }
 
 class SVGManager {
+  static const String running = 'assets/svg/runner.svg';
 }

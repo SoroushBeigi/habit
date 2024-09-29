@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:habit/src/common/resources/icons/my_flutter_app_icons.dart';
 
 class HomeScreen extends StatelessWidget {
   static const homeScreenPath = '/';
@@ -12,6 +13,7 @@ class HomeScreen extends StatelessWidget {
         color: Colors.red,
         width: MediaQuery.sizeOf(context).width,
         height: MediaQuery.sizeOf(context).height,
+        child: Icon(AppIcons.book),
       ),
     );
   }
