@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:habit/generated/l10n.dart';
 import 'package:habit/src/common/resources/theme/provider/theme_controller.dart';
 import 'package:habit/src/common/resources/theme/provider/theme_provider.dart';
+import 'package:habit/src/routes/app_routing.dart';
 
 
 class MyApp extends ConsumerWidget {
@@ -25,7 +26,7 @@ class MyApp extends ConsumerWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       locale: const Locale('en'),
-      // routerConfig: Routes.routes(),
+      routerConfig: Routes.routes(),
     );
   }
 }
