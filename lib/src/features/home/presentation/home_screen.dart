@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:habit/src/common/resources/icons/my_flutter_app_icons.dart';
 
 class HomeScreen extends StatelessWidget {
-  static const homeScreenPath = '/';
-  static const homeScreenName = 'homeScreen';
+  static const path = '/';
+  static const name = 'homeScreen';
   const HomeScreen({super.key});
 
   @override

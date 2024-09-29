@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-class ImageManager {}
+class ImageManager {
+  static const String firstOnboardingPng = 'assets/onboarding/1.png';
+  static const String secondOnboardingPng = 'assets/onboarding/2.png';
+  static const String thirdOnboardingPng = 'assets/onboarding/3.png';
+}
 
 
 class IconManager {
